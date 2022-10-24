@@ -1,0 +1,16 @@
+Linux Working with directories
+
+A brief overview of the most common commands to work with directories: pwd, cd, ls, mkdir and rmdir. These commands are available on any Linux (or Unix) system.
+
+pwd : Print Working Directory (Will tell you the location you are currently working)
+cd : You can change your current directory with the cd command
+  - cd : shortcut to get back into your home directory. Just typing cd without a target directory, will put you in your home directory
+  - cd .. : To go to the parent directory (the one just above your current directory in the directory tree)
+  - cd - : To go to the previous directory
+•	ls : You can list the contents of a directory with ls
+  - ls -a : To show all files. Showing all files means including the hidden files. When a file name on a Linux file system starts with a dot, it is considered a hidden file and it doesn't show up in regular file listings.
+  - ls -l : to display the contents of the directory in different formats or to display different parts of the directory.
+  - ls -lh : shows the numbers (file sizes) in a more human readable format.
+•	mkdir : Create new directories
+•	mkdir -p: To create parent directories as needed
+•	rmdir: To remove the directory. (Directory has to be empty)
